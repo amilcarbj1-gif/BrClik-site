@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mateus Queirós — Contato</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;700&family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="index.html" class="logo">Mateus Queirós</a>
+      <nav class="menu">
+        <a href="index.html">Início</a>
+        <a href="sobre-mim.html">Sobre mim</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contato.html" class="ativo">Contato</a>
+      </nav>
+    </header>
+
+    <main class="pagina-contato">
+      <section class="topo-pagina">
+        <h1>Contato</h1>
+        <p>
+          Tem um projeto em mente, uma dúvida ou só quer trocar uma ideia? Fico
+          feliz em conversar — escolha o canal que preferir abaixo.
+        </p>
+      </section>
+
+      <section class="secao">
+        <h2>Onde me achar</h2>
+        <ul class="lista-contato">
+          <li>
+            <span class="canal">E-mail</span>
+            <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+          </li>
+          <li>
+            <span class="canal">LinkedIn</span>
+            <a
+              href="https://linkedin.com/in/seu-usuario"
+              target="_blank"
+              rel="noopener"
+              >linkedin.com/in/seu-usuario</a
+            >
+          </li>
+          <li>
+            <span class="canal">GitHub</span>
+            <a
+              href="https://github.com/seu-usuario"
+              target="_blank"
+              rel="noopener"
+              >github.com/seu-usuario</a
+            >
+          </li>
+          <li><span class="canal">Cidade</span> Cianorte, PR</li>
+        </ul>
+      </section>
+
+      <section class="secao">
+        <h2>Ou me manda uma mensagem</h2>
+        <form class="form-contato" action="#" method="post">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Como posso te chamar?"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seu@email.com"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="6"
+              placeholder="Escreva sua mensagem aqui..."
+            ></textarea>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Este site foi feito por mim enquanto eu aprendia HTML e CSS.</p>
+      <p>
+        <a href="mailto:mateus@exemplo.com">E-mail</a> |
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
